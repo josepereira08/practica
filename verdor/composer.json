@@ -1,0 +1,18 @@
+{
+    "name": "batalla/oop",
+    "description": "una batalla de guerrero",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "josepereira08",
+            "email": "jpyftsunami08@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":["src/extra.php"],
+        "psr-4":{
+            "Batalla\\": "src/"
+        }
+    }
+}
