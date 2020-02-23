@@ -1,6 +1,6 @@
 <?php
 
-namespace War;
+namespace jp;
 
 abstract class Weapon
 {
@@ -14,6 +14,6 @@ abstract class Weapon
 
     protected function getDescriptionKey()
     {
-        return str_replace('War\Weapons\\', '', get_class($this)).'Attack';
+        return str_replace('jp\Weapons\\', '', get_class($this)).'Attack';
     }
 }

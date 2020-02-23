@@ -1,9 +1,9 @@
 <?php
 
-namespace War\Armors;
+namespace jp\Armors;
 
-use War\Armor;
-use War\Attack;
+use jp\Armor;
+use jp\Attack;
 
 class SilverArmor extends Armor
 {

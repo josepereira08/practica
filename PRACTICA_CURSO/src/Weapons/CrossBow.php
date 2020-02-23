@@ -1,9 +1,9 @@
 <?php
 
-namespace War\Weapons;
+namespace jp\Weapons;
 
-use War\Weapon;
-use War\Unit;
+use jp\Weapon;
+use jp\Unit;
 
 class CrossBow extends Weapon
 {

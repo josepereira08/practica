@@ -1,6 +1,6 @@
 <?php
 
-namespace War;
+namespace jp;
 
 class Unit
 {
@@ -20,7 +20,7 @@ class Unit
 
     public static function createSoldier()
     {
-        $soldier = new Unit('Ramm', new Weapons\BasicSword);
+        $soldier = new Unit('luis', new Weapons\BasicSword);
         $soldier->setArmor(new Armors\BronzeArmor());
 
         return $soldier;

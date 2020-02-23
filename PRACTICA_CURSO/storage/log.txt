@@ -1,5 +1,5 @@
-(2020-02-18 17:32:15) jose dispara una flecha de fuego a luis
-(2020-02-18 17:32:15)luis ahora tiene 10 puntos de vida
-(2020-02-18 17:32:15) jose dispara una flecha de fuego a luis
-(2020-02-18 17:32:15)luis ahora tiene -20 puntos de vida
-(2020-02-18 17:32:15)luis muere
+(2020-02-21 14:17:38) jose dispara una flecha de fuego a luis
+(2020-02-21 14:17:38)luis ahora tiene 10 puntos de vida
+(2020-02-21 14:17:38) jose dispara una flecha de fuego a luis
+(2020-02-21 14:17:38)luis ahora tiene -20 puntos de vida
+(2020-02-21 14:17:38)luis muere

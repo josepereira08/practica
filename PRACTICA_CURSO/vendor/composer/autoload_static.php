@@ -4,17 +4,21 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfba152e24576c07c9de0b11390affa40
+class ComposerStaticInit6a7048c1561807cff443280077d9d0c0
 {
+    public static $files = array (
+        '6035149c02307c252b21294d6cdf76cd' => __DIR__ . '/../..' . '/src/helpers.php',
+    );
+
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'j' => 
         array (
-            'Styde\\' => 6,
+            'jp\\' => 3,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Styde\\' => 
+        'jp\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -23,8 +27,8 @@ class ComposerStaticInitfba152e24576c07c9de0b11390affa40
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfba152e24576c07c9de0b11390affa40::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfba152e24576c07c9de0b11390affa40::$prefixDirsPsr4;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6a7048c1561807cff443280077d9d0c0::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6a7048c1561807cff443280077d9d0c0::$prefixDirsPsr4;
 
         }, null, ClassLoader::class);
     }

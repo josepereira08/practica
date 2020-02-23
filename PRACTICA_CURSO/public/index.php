@@ -1,6 +1,6 @@
 <?php
 
-namespace War;
+namespace jp;
 
 require '../vendor/autoload.php';
 
